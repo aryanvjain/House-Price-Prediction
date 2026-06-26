@@ -81,8 +81,6 @@ The analysis included:
 * Garage Capacity vs Sale Price
 * Basement Area vs Sale Price
 
-> Add screenshots of these visualizations inside the `images/` folder and embed them here to showcase the analysis.
-
 ---
 
 # Data Preprocessing
