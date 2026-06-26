@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="images/projject banner.png" alt="House Price Prediction Banner" width="100%">
+</p>
+
+
 # 🏡 House Price Prediction using Machine Learning
 
 <p align="center">
