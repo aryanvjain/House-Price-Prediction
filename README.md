@@ -1,44 +1,26 @@
-<p align="center">
-  <img src="Images/project banner.png" alt="House Price Prediction Banner" width="100%">
-</p>
-
-
-# 🏡 House Price Prediction using Machine Learning
+# House Price Prediction using Machine Learning
 
 <p align="center">
+An end-to-end Machine Learning project that predicts residential house prices using the Ames Housing Dataset. This project demonstrates the complete supervised learning workflow, including data preprocessing, feature engineering, model building, evaluation, and Kaggle submission.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge\&logo=python)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge\&logo=scikitlearn)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge\&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge\&logo=numpy)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?style=for-the-badge)
-![Kaggle](https://img.shields.io/badge/Kaggle-Competition-20BEFF?style=for-the-badge\&logo=kaggle)
-
-</p>
-
-<p align="center">
-
-An end-to-end Machine Learning project that predicts residential house prices using the Ames Housing Dataset.
-The project covers the complete supervised learning pipeline including data preprocessing, feature engineering, model building, evaluation, and Kaggle submission.
-
-**🏆 Final Kaggle Public Score: 0.14413**
+**Final Kaggle Public Score: 0.14413**
 
 </p>
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
-House prices are influenced by numerous factors such as location, overall quality, living area, garage capacity, basement area, neighborhood, and many other property characteristics.
+House prices are influenced by numerous factors such as location, overall quality, living area, garage capacity, basement area, neighborhood, and several other property characteristics.
 
 The objective of this project is to build an accurate regression model capable of predicting house prices using these features while demonstrating a complete machine learning workflow—from raw data exploration to final model deployment.
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 * **Dataset:** Ames Housing Dataset
-* **Source:** Kaggle - House Prices: Advanced Regression Techniques
+* **Source:** Kaggle – House Prices: Advanced Regression Techniques
 * **Training Samples:** 1460
 * **Test Samples:** 1459
 * **Target Variable:** `SalePrice`
@@ -46,7 +28,7 @@ The objective of this project is to build an accurate regression model capable o
 
 ---
 
-# 🔄 Machine Learning Workflow
+# Machine Learning Workflow
 
 ```text
 Load Dataset
@@ -87,9 +69,9 @@ Kaggle Submission
 
 ---
 
-# 📈 Exploratory Data Analysis
+# Exploratory Data Analysis
 
-Several visualizations were created to better understand the dataset and identify relationships between different housing features and sale prices.
+Several visualizations were created to understand the dataset and identify relationships between housing features and sale prices.
 
 The analysis included:
 
@@ -99,21 +81,21 @@ The analysis included:
 * Garage Capacity vs Sale Price
 * Basement Area vs Sale Price
 
-> *(Add screenshots of these visualizations inside the `images/` folder and embed them here for a more attractive repository.)*
+> Add screenshots of these visualizations inside the `images/` folder and embed them here to showcase the analysis.
 
 ---
 
-# ⚙️ Data Preprocessing
+# Data Preprocessing
 
 The following preprocessing techniques were applied before model training.
 
-### ✔ Missing Value Handling
+### Missing Value Handling
 
 * Removed features with excessive missing values
 * Filled numerical missing values using statistical methods
 * Filled categorical missing values using appropriate category labels
 
-### ✔ Feature Encoding
+### Feature Encoding
 
 Two encoding techniques were used:
 
@@ -124,7 +106,7 @@ Finally, both training and testing datasets were transformed into identical feat
 
 ---
 
-# 🤖 Models Implemented
+# Models Implemented
 
 Three regression models were trained and compared.
 
@@ -136,7 +118,7 @@ Three regression models were trained and compared.
 
 ---
 
-# 📊 Model Performance
+# Model Performance
 
 | Model             |        MAE |       RMSE |  R² Score |
 | ----------------- | ---------: | ---------: | --------: |
@@ -148,7 +130,7 @@ Random Forest consistently outperformed the other models across all evaluation m
 
 ---
 
-# 🏆 Final Results
+# Final Results
 
 | Metric              | Result                  |
 | ------------------- | ----------------------- |
@@ -158,13 +140,13 @@ Random Forest consistently outperformed the other models across all evaluation m
 
 ---
 
-# 📂 Repository Structure
+# Repository Structure
 
 ```text
 House-Price-Prediction
 │
-├── notebooks/
-│   └── House_Price_Prediction.ipynb
+├── notebook/
+│   └── house-price-prediction.ipynb
 │
 ├── data/
 │   ├── train.csv
@@ -173,38 +155,41 @@ House-Price-Prediction
 │   └── data_description.txt
 │
 ├── images/
+│   ├── github-banner.png
+│   ├── heatmap.png
+│   └── overallqual_vs_saleprice.png
 │
 ├── results/
 │   └── submission.csv
 │
 ├── requirements.txt
-├── README.md
-└── LICENSE
+├── LICENSE
+└── README.md
 ```
 
 ---
 
-# 🚀 Getting Started
+# Getting Started
 
-Clone the repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/aryanvjain/House-Price-Prediction.git
 ```
 
-Move into the project directory
+Move into the project directory:
 
 ```bash
 cd House-Price-Prediction
 ```
 
-Install dependencies
+Install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Launch the notebook
+Launch Jupyter Notebook:
 
 ```bash
 jupyter notebook
@@ -212,7 +197,7 @@ jupyter notebook
 
 ---
 
-# 🛠️ Technologies Used
+# Technologies Used
 
 * Python
 * Pandas
@@ -222,44 +207,42 @@ jupyter notebook
 * Google Colab
 * Kaggle
 
----
 
-# 🎯 Key Learnings
+# Key Learnings
 
 This project strengthened my understanding of:
 
 * Exploratory Data Analysis (EDA)
 * Missing Value Treatment
 * Feature Engineering
-* Ordinal & One-Hot Encoding
+* Ordinal Encoding and One-Hot Encoding
 * Regression Algorithms
-* Model Evaluation Metrics
-* Hyperparameters
-* Machine Learning Workflow
+* Model Evaluation Metrics (MAE, RMSE, R²)
+* Hyperparameter Selection
+* End-to-End Machine Learning Workflow
 * Kaggle Model Submission
 
----
 
-# 🚀 Future Improvements
+# Future Improvements
 
-Some potential improvements include:
+Potential enhancements include:
 
 * Hyperparameter tuning using GridSearchCV or RandomizedSearchCV
-* Cross Validation
-* Feature Selection
-* Log Transformation of the Target Variable
-* Gradient Boosting Models (XGBoost, LightGBM, CatBoost)
-* Model Explainability using SHAP
+* Cross-validation
+* Feature selection
+* Log transformation of the target variable
+* Gradient Boosting models (XGBoost, LightGBM, CatBoost)
+* Model explainability using SHAP
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Aryan Jain**
 
 * GitHub: https://github.com/aryanvjain
-* LinkedIn: *(Add your LinkedIn profile here)*
+* LinkedIn: www.linkedin.com/in/aryan-vineet-jain
 
 ---
 
-⭐ If you found this repository helpful, consider giving it a star!
+If you found this project useful, consider giving the repository a star.
