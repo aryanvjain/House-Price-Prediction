@@ -143,8 +143,8 @@ Random Forest consistently outperformed the other models across all evaluation m
 ```text
 House-Price-Prediction
 │
-├── notebook/
-│   └── house-price-prediction.ipynb
+├── Notebook/
+│   └── House_Price_Prediction_Notebook.ipynb
 │
 ├── data/
 │   ├── train.csv
@@ -152,16 +152,20 @@ House-Price-Prediction
 │   ├── sample_submission.csv
 │   └── data_description.txt
 │
-├── images/
-│   ├── github-banner.png
+├── Images/
+│   ├── project banner.png
 │   ├── heatmap.png
-│   └── overallqual_vs_saleprice.png
+│   └── scatterplot1.png
+│   └── scatterplot 2.png
+│   └── scatterplot 3.png
+│   └── scatterplot 4.png
 │
 ├── results/
 │   └── submission.csv
 │
-├── requirements.txt
+├── Requirements.txt
 ├── LICENSE
+├── .gitignore
 └── README.md
 ```
 
